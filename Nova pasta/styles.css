@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #250404;
   }
   
   header {
-    background-color: #333;
-    padding: 20px;
+    background-color: #f3ecec;
+    padding: 100px;
     text-align: center;
   }
   
@@ -17,16 +17,16 @@ body {
   
   #container {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   
   input[type="text"] {
-    padding: 10px;
-    margin-right: 10px;
+    padding: 50px;
+    margin-right: 50px;
   }
   
   button {
-    padding: 10px 20px;
+    padding: 50px 70px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -38,7 +38,7 @@ body {
   }
   
   #fraseMotivacional {
-    font-size: 36px;
-    margin-top: 20px;
+    font-size: 100px;
+    margin-top: 50px;
     color: #333;
   }
