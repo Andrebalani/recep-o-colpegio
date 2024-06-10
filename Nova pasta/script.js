@@ -32,5 +32,11 @@ const frases = [
   }
   
   function ativarEfeitoConfetes() {
-    // Implemente aqui o código para o efeito de confetes
-  }
+    var confettiSettings = { target: 'confetti-canvas' };
+    var confetti = new ConfettiGenerator(confettiSettings);
+    confetti.render();
+
+    setTimeout(function () {
+        confetti.clear();
+    }, 5000); // O confete desaparece após 5 segundos
+}
